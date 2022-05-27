@@ -1,0 +1,129 @@
+h1{
+   color:black;
+   background-color:white;
+   font-family:Majerit;
+   font-size: 80px;
+   text-align: center;
+   border: 10mm ridge rgba(255, 0, 0, 1);
+}
+h2{
+   color:black;
+   background-color:white;
+   font-family:Majerit;
+   font-size: 60px;
+   text-align: center;
+   border: 3mm solid rgba(9, 82, 40, .8);
+}
+h3{
+   color: rgba(255, 0, 0, 1);
+   background-color:white;
+   font-family:Majerit;
+   font-size: 40px;
+   text-align: center;
+   border: 3mm outset rgba(255, 0, 0, 1);
+
+}
+p{
+   color:black;
+   background-color:white;
+   font-family:Majerit;
+   font-size: 40px;
+   text-align: justify;
+   border: 3mm ridge rgba(0, 0, 0, 0.6);
+}
+intro{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background-color:white;
+    font-family:Majerit;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+body{
+   color:black;
+   font-family:Majerit;
+   text-align: justify;
+}
+b{
+   color: black;
+   font-family:Majerit;
+   font-size: 50px;
+   text-align: center;
+
+}
+img{
+    margin-right: auto;
+}
+
+strong{
+    font-weight: bold;
+    font-size:50px;
+}
+name{
+    display: block;
+    position:fixed;
+    bottom: 0px;
+    right:0px;
+    font-size: 28px;
+    font-weight:bold;
+    background-color:white;
+    border: 3mm outset rgba(255, 0, 0, 1);
+
+}
+nameb{
+    display: block;
+    position:fixed;
+    top: 0px;
+    right:0px;
+    font-size: 28px;
+    font-weight:bold;
+    background-color:white;
+    border: 3mm outset rgba(255, 0, 0, 1);
+    transition: opacity .2s;
+}
+nameb:hover{
+    opacity:0;
+}
+a{
+    font-color:black;
+    text-decoration:black;
+
+}
+
+Bor{
+    display:block;
+    float:left
+}
+acoimg4{
+    display: block;
+    margin-left:750px;
+
+}
+.liens_yt{
+    display: block;
+    margin-left:650px;
+}
+image1{
+    display: block;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.image2{
+    display: block;
+    float: left;
+
+}
+.image3{
+    display: block;
+    float:left;
+    width: 720px;
+    height: 600px;
+}
+.image4{
+    display: flex;
+    float:left;
+}
