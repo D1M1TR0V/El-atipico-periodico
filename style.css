@@ -252,7 +252,7 @@ bas{
     float: none;
     text-align: left;
     color: white;
-    font-weight: bold;
+    font-weight: oblique;
     font-family:Majerit;
     font-size: 30px;
     margin-bottom: -68px;
@@ -263,7 +263,7 @@ bas{
     float: none;
     text-align: center;
     color: white;
-    font-weight: bold;
+    font-weight: oblique;
     font-family:Majerit;
     font-size: 30px;
     margin-left: 35%;
@@ -276,7 +276,7 @@ bas{
     float: right;
     text-align: left;
     color: white;
-    font-weight: bold;
+    font-weight: oblique;
     font-family:Majerit;
     font-size: 30px;
     margin-left: 66%;
