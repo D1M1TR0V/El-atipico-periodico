@@ -127,3 +127,14 @@ image1{
     display: flex;
     float:left;
 }
+blc{
+    display: block;
+}
+n{
+    display:block;
+    border: 3mm ridge rgba(43, 250, 250, 1);
+    position:fixed;
+    bottom: 0px;
+    left:0px;
+
+}
