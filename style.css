@@ -1,7 +1,7 @@
 h1{
    color:black;
    background-color:white;
-   font-family:Majerit;
+   font-family:Akaya Telivigala, Montserrat;
    font-size: 80px;
    text-align: center;
    border: 10mm ridge rgba(255, 0, 0, 1);
@@ -9,7 +9,7 @@ h1{
 h2{
    color:black;
    background-color:white;
-   font-family:Majerit;
+   font-family:Roboto;
    font-size: 60px;
    text-align: center;
    border: 3mm solid rgba(9, 82, 40, .8);
@@ -17,7 +17,7 @@ h2{
 h3{
    color: rgba(255, 0, 0, 1);
    background-color:white;
-   font-family:Majerit;
+   font-family:Helvetica;
    font-size: 40px;
    text-align: center;
    border: 3mm outset rgba(255, 0, 0, 1);
@@ -26,7 +26,7 @@ h3{
 p{
    color:black;
    background-color:white;
-   font-family:Majerit;
+   font-family:Helvetica;
    font-size: 40px;
    text-align: justify;
    border: 3mm ridge rgba(0, 0, 0, 0.6);
@@ -34,9 +34,8 @@ p{
 intro{
     text-align: left;
     color: black;
-    font-weight: bold;
     background-color:white;
-    font-family:Majerit;
+    font-family:Helvetica;
     font-size: 30px;
     text-align: center;
 
@@ -45,12 +44,12 @@ intro{
 
 body{
    color:black;
-   font-family:Majerit;
+   font-family:Helvetica;
    text-align: justify;
 }
 b{
    color: black;
-   font-family:Majerit;
+   font-family:Helvetica;
    font-size: 50px;
    text-align: center;
 
@@ -70,7 +69,6 @@ name{
     bottom: 0px;
     right:0px;
     font-size: 28px;
-    font-weight:bold;
     background-color:white;
     border: 3mm outset rgba(255, 0, 0, 1);
 
@@ -81,7 +79,6 @@ name{
     top: 0px;
     right:0px;
     font-size: 28px;
-    font-weight:bold;
     background-color:white;
     border: 3mm outset rgba(255, 0, 0, 1);
     transition: opacity 1s;
@@ -100,7 +97,6 @@ name{
     top: 0px;
     right:0px;
     font-size: 28px;
-    font-weight:bold;
     background-color:white;
     border: 3mm outset rgba(255, 0, 0, 1);
     transition: opacity 1s;
@@ -113,7 +109,7 @@ name{
 
 }
 Bor{
-    display:block;
+    display:inline-flex;
     float:left;
     background-color: rgba(255, 255, 255, .5);
     border: 3mm inset rgba(0, 0, 0, 1);
@@ -127,7 +123,7 @@ Bor{
     display: flex;
     color:black;
     background-color:white;
-    font-family:Majerit;
+    font-family:Helvetica;
     font-size: 40px;
     text-align: left;
     float: left;
@@ -136,11 +132,23 @@ Bor{
     margin-left: 50px;
     margin-top: -600px;
 }
+.accompagnementimage8et9{
+    display: flex;
+    color:black;
+    background-color:white;
+    font-family:Helvetica;
+    font-size: 40px;
+    text-align: left;
+    float: left;
+    border: 3mm ridge rgba(0, 0, 0, 0.6);
+    margin-bottom: 6%;
+
+}
 txtvideo{
     display: block;
     color:black;
     background-color:white;
-    font-family:Majerit;
+    font-family:Helvetica;
     font-size: 40px;
     text-align: justify;
     border: 3mm ridge rgba(0, 0, 0, 0.6);
@@ -158,17 +166,17 @@ txtvideo{
 
 }
 .image3{
-    display: flex;
+    display: block;
     float:left;
     width: 720px;
     height: 600px;
 }
 .image4{
-    display: flex;
+    display: block;
     float:left;
 }
 .image5{
-    display: flex;
+    display: block;
     float: right;
 }
 .tbas{
@@ -183,9 +191,9 @@ txtvideo{
 }
 .noms{
     display:block;
-    border: 3mm outset rgba(9, 82, 40, .8);
-    background-color:white;
-    font-weight:bold;
+    color: white;
+    border: 3mm ridge rgba(9, 82, 40, .8);
+    background-color:rgba(9, 82, 40, 1);
     position:fixed;
     bottom: 0px;
     left:0px;
@@ -200,7 +208,7 @@ video{
     display: block;
     color:black;
     background-color:white;
-    font-family:Majerit;
+    font-family:Helvetica;
     font-size: 40px;
     text-align: right;
     float: right;
@@ -214,6 +222,16 @@ video{
     margin-right: auto;
     margin-left: auto;
     border: 3mm ridge rgba(255, 0, 0, 1);
+}
+.image8{
+    display: block;
+    float: right;
+    margin-right: auto;
+}
+.image9{
+    display: block;
+    float: left;
+    margin-left: auto;
 }
 .image7{
     display: block;
@@ -248,38 +266,91 @@ bas{
     height: 200px;
 }
 .Textefinal{
-    display: flex;
+    display: block;
+    position: relative;
     float: none;
     text-align: left;
     color: white;
-    font-weight: oblique;
-    font-family:Majerit;
+    font-style: italic;
+    font-family:Helvetica;
     font-size: 30px;
     margin-bottom: -68px;
 
 }
 .Textefinal2{
-    display: flex;
+    display: block;
+    position: relative;
     float: none;
     text-align: center;
     color: white;
-    font-weight: oblique;
-    font-family:Majerit;
+    font-style: italic;
+    font-family:Helvetica;
     font-size: 30px;
-    margin-left: 35%;
-    margin-bottom: -33px;
+    margin-bottom: -68px;
     
 
 }
 .Textefinal3{
-    display: inline-flex;
+    display: block;
+    position: relative;
     float: right;
-    text-align: left;
+    text-align: right;
     color: white;
-    font-weight: oblique;
-    font-family:Majerit;
+    font-style: italic;
+    font-family:Helvetica;
+    font-size: 30px;    
+
+}
+
+.Textefinalp2{
+    display: block;
+    position: absolute;
+    float: none;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: Helvetica;
     font-size: 30px;
-    margin-left: 66%;
-    
+    margin-left: 0%;
+    margin-top: 60%; 
+
+}
+.Textefinal2p2{
+    display: block;
+    position: absolute;
+    float: none;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: Helvetica;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 60%; 
+
+}
+.Textefinalp3{
+    display: block;
+    position: absolute;
+    float: none;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: Helvetica;
+    font-size: 30px;
+    margin-left: 0%;
+    margin-top: 47.5%; 
+
+}
+.Textefinal2p3{
+    display: block;
+    position: absolute;
+    float: none;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: Helvetica;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 47.5%; 
 
 }
