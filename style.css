@@ -63,7 +63,7 @@ strong{
     font-size:50px;
     text-align: left;
 }
-name{
+.name{
     display: block;
     position:fixed;
     bottom: 0px;
@@ -71,6 +71,11 @@ name{
     font-size: 28px;
     background-color:white;
     border: 3mm outset rgba(255, 0, 0, 1);
+
+}
+.name:hover{
+    background-color:lightgray;
+    border: 3mm outset rgba(9, 82, 40, 1);
 
 }
 .nameb{
@@ -192,11 +197,17 @@ txtvideo{
 .noms{
     display:block;
     color: white;
-    border: 3mm ridge rgba(9, 82, 40, .8);
+    border: 3mm ridge rgba(9, 82, 40, 1);
     background-color:rgba(9, 82, 40, 1);
     position:fixed;
     bottom: 0px;
     left:0px;
+
+}
+.noms:hover{
+    color: black;
+    background-color:lightgray;
+    border: 3mm ridge rgba(255, 0, 0, 1);
 
 }
 video{
@@ -238,8 +249,7 @@ video{
     float: none;
     width: 1100px;
     height: 600px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 210px;
     border: 3mm ridge rgba(255, 0, 0, 1);
 }
 left{
@@ -352,5 +362,20 @@ bas{
     font-size: 30px;
     margin-left: 45%;
     margin-top: 47.5%; 
+
+}
+.button{
+    display: block;
+    float: right;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: Helvetica;
+    font-size: 30px;
+
+
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, .5);
 
 }
