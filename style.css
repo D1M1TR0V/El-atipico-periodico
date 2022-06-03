@@ -379,3 +379,18 @@ bas{
     background-color: rgba(0, 0, 0, .5);
 
 }
+.button2{
+    display: block;
+    float: left;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: Helvetica;
+    font-size: 30px;
+
+
+}
+.button2:hover{
+    background-color: rgba(0, 0, 0, .5);
+
+}
